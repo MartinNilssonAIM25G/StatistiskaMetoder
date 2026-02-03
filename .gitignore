@@ -1,0 +1,30 @@
+# Ignorera allt som default
+*
+
+# Behåll .gitignore
+!.gitignore
+
+# Tillåt ALLT under Labs
+!Labs/
+!Labs/**
+
+# Men ignorera data överallt
+Labs/**/Data/
+Labs/**/*.csv
+Labs/**/*.parquet
+
+# Python-skräp
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
