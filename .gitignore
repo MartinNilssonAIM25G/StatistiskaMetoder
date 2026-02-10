@@ -9,9 +9,11 @@
 !Labs/**
 
 # Men ignorera data överallt
-Labs/**/Data/
-Labs/**/*.csv
-Labs/**/*.parquet
+**/data/
+**/data/**
+**/Data/
+**/Data/**
+
 
 # Python-skräp
 __pycache__/
